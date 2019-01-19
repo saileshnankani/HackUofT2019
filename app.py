@@ -15,7 +15,7 @@ data = [broccoli]
 
 @app.route('/')
 def main():
-    return '<h1>Hello world!</h1>'
+    return '<h1>Hello world!!</h1>'
 
 @app.route('/detect')
 def test():
