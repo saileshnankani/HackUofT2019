@@ -8,9 +8,6 @@ from google.cloud.vision import types
 def extract_image_details(filename):
     # Instantiates a client
     client = vision.ImageAnnotatorClient()
-    
-    # The name of the image file to annotate
-    file_name = "data/imgs/broccoli/0.jpg"
 
     # Loads the image into memory
     with io.open(filename, 'rb') as image_file:
@@ -27,4 +24,4 @@ def extract_image_details(filename):
     for label in labels:
         #print(label.description)
         description.append(label.description)
-    return description
+    return description[0]
