@@ -1,6 +1,6 @@
 # HackUofT2019
 
-This repository contains code for the backend for an application called Chexpiry. 
+This repository contains code for the backend of an application called Chexpiry. 
 
 Chexpiry is an application that focuses on minimizing food waste by informing the user of the short shelf lives of fruits & vegetables.
 
